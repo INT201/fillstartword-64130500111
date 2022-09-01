@@ -7,16 +7,16 @@ function fillStartWord(startWord, word) {
     console.log(`${startWord}${word}`)
     
   }else {
-    
     return undefined
+    
   }
 
 }
 
-fillStartWord("hello", "1 2 3")
-fillStartWord("hello", null)
-fillStartWord("hello", undefined)
-fillStartWord(null, null)
-fillStartWord(undefined)
+// fillStartWord('1-2565-', 'Hello World')
+// fillStartWord('JS', 'beginner')
+// fillStartWord('first', 'firststep')
+// fillStartWord('second', undefined)
+// fillStartWord('third', null)
 
 module.exports = fillStartWord
