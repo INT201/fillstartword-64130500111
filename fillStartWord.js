@@ -8,15 +8,15 @@ function fillStartWord(startWord, word) {
     
   }else {
     
-    console.log("undefined")
+    return undefined
   }
 
 }
 
-// fillStartWord("hello", "1 2 3")
-// fillStartWord("hello", null)
-// fillStartWord("hello", undefined)
-// fillStartWord(null, null)
-// fillStartWord(undefined)
+fillStartWord("hello", "1 2 3")
+fillStartWord("hello", null)
+fillStartWord("hello", undefined)
+fillStartWord(null, null)
+fillStartWord(undefined)
 
 // module.exports = fillStartWord
