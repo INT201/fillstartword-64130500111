@@ -1,9 +1,9 @@
-const { template } = require('@babel/core')
+// const { template } = require('@babel/core')
 
 
 function fillStartWord(startWord, word) {
 
-  if(startWord != null && word != null) {
+  if((startWord != null || undefined) && (word != null || undefined)) {
     console.log(`${startWord}${word}`)
     
   }else {
@@ -13,6 +13,10 @@ function fillStartWord(startWord, word) {
 
 }
 
-fillStartWord("hello")
+// fillStartWord("hello", "1 2 3")
+// fillStartWord("hello", null)
+// fillStartWord("hello", undefined)
+// fillStartWord(null, null)
+// fillStartWord(undefined)
 
-module.exports = fillStartWord
+// module.exports = fillStartWord
