@@ -7,7 +7,7 @@ function fillStartWord(startWord, word) {
   }else if(startWord === word.substr(0, startWord.length)){
     return word
   }else{
-    return `${startWord}${word}`
+    return `${startWord}${word}` 
   }
 }
     
